@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid #bec1bb;
+}
+.usuario{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    border-bottom: 1px solid #e8ebe4;
+}
+.imgNombre{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.imgNombre img{
+    width: 25%;
+    border: 2px solid #e8ebe4;
+    border-radius: 50%;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    color: #1b1f21;
+}
+.activ{
+    color: #BEC1BB;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 2%;
+}
+.iconos{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #828485;
+}
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e8ebe4;
+    border-bottom: 1px solid #e8ebe4;
+}
+.contenidoBoton{
+    width: 60%;
+    padding: 5%;
+    margin: 15%;
+    text-align: center;
+    background-color: #a491d2;
+    color: white;
+}
+.contenidoBoton{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 16px;
+}
+.chat{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e8ebe4;
+    border-bottom: 1px solid #e8ebe4;
+    padding: 5%;
+}
+.chats{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    color: #1b1f21;
+}
+.chats img{
+    width: 25%;
+    border: 2px solid #BEC1BB;
+    border-radius: 50%;
+}
+.contenidoChat{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    width: 80vw;
+    background-color: #e8ebe4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.manos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.manos img{
+    width: 50%;
+}
+.texto{
+    text-align: center;
+    padding: 5%;
+    color: #1b1f21;
+}
+.texto span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.texto p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 2%;
+}
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 2%;
+}
